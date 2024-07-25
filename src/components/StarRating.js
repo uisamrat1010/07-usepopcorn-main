@@ -11,20 +11,25 @@ const starContainerStyle = {
   display: "flex",
 };
 
-function StarRating({ maxRating = 5, color = "#fcc419", size = 25, onsetAPI }) {
+function StarRating({
+  maxRating = 5,
+  color = "#fcc419",
+  size = 20,
+  onsetRating,
+}) {
   const [rating, setRating] = useState(0);
   const [tempRating, setTempRating] = useState(0);
 
   function HandleRating(rate) {
     setRating(rate);
-    onsetAPI(rate);
+    onsetRating(rate);
   }
 
   const textContainer = {
     lineHeight: "0",
     margin: "0",
     color,
-    fontSize: `${size}px`,
+    fontSize: "18px",
   };
 
   StarRating.propTypes = {
