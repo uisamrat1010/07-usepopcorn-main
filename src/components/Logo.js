@@ -1,10 +1,10 @@
 import React from "react";
+import LogoView from "../usepopcornlogo.png";
 
 function Logo() {
   return (
     <div className="logo">
-      <span role="img">🍿</span>
-      <h1>usePopcorn</h1>
+      <img src={LogoView} alt="usepopcorn logo" className="logo-view" />
     </div>
   );
 }

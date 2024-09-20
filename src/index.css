@@ -8,6 +8,7 @@
   --color-background-900: #212529;
   --color-red: #fa5252;
   --color-red-dark: #e03131;
+  --color-logo: #0b041e;
 }
 
 * {
@@ -37,7 +38,7 @@ body {
   align-items: center;
   height: 7.2rem;
   padding: 0 3.2rem;
-  background-color: var(--color-primary);
+  background-color: var(--color-logo);
   border-radius: 0.9rem;
 }
 
@@ -73,6 +74,11 @@ body {
 }
 
 /* ******* */
+
+.logo-view {
+  width: 150px;
+  height: 65px;
+}
 
 .logo {
   display: flex;
