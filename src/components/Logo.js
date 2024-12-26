@@ -1,5 +1,5 @@
 import React from "react";
-import LogoView from "../usepopcornlogo.png";
+import LogoView from "../usepopcorn-logo.png";
 
 function Logo() {
   return (
